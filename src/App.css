@@ -1,0 +1,103 @@
+/* Step 1 */
+html {
+  border-left: 5px solid lightgray;
+}
+
+/* Step 2  & 3 */
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Step 4 */
+header, main, footer {
+  padding: 1rem 2rem;
+}
+
+/* Step 5 */
+h1 {
+  color: tomato;
+}
+
+/* Step 6 */
+img {
+  width: 100%;
+}
+
+/* Step 7 */
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: lightgray;
+}
+
+footer nav a {
+  color: tomato;
+}
+
+/* Step 8 */
+article h3 {
+  font-size: 2rem;
+  color: lightgray;
+}
+
+/* Step 9 */
+article a {
+  float: right;
+  font-weight: bold;
+  color: tomato;
+}
+
+/* Step 10*/
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+/* Step 11 */
+p::first-letter {
+  color: lightgray;
+  font-size: 4rem;
+  float: left;
+  line-height: 1;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+article p {
+  text-align: justify;
+}
+
+/* Step 12 */
+
+footer {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  color:darkgray;
+}
+
+footer p::before {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+h4 {
+  color: lightgrey;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+}
